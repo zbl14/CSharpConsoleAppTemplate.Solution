@@ -18,11 +18,17 @@ _{This is a detailed description of your application. Give as much detail as nee
 ---
 ## Setup/Installation Requirements
 
-* Install *`Microsoft .NET SDK`*
-* Place files in a folder named `ProjectName.Solution`
-    <pre>ProjectName.Solution
-    ├── ProjectName
-    └── ProjectName.Tests</pre>
+<details>
+<summary><strong>To Setup</strong></summary>
+<li>Install *`Microsoft .NET SDK`*</li>
+<li>Clone the repo
+
+```sh
+$ git clone
+```
+</li>
+</details>
+
 <details>
 <summary><strong>To Run</strong></summary>
 Navigate to  
@@ -30,7 +36,9 @@ Navigate to
    ├── <strong>ProjectName</strong>
    └── ProjectName.Tests</pre>
 
-Run ```$ dotnet run``` in the console
+```sh
+$ dotnet run
+```
 </details>
 
 <details>
@@ -40,7 +48,10 @@ Navigate to
     ├── ProjectName
     └── <strong>ProjectName.Tests</strong></pre>
 
-Run ```$ dotnet test``` in the console
+```sh
+$ dotnet restore
+$ dotnet test
+```
 
 </details>
 <br/>
