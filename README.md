@@ -50,6 +50,8 @@ Navigate to
 
 ```sh
 $ dotnet restore
+```
+```sh
 $ dotnet test
 ```
 
