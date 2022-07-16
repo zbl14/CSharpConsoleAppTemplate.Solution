@@ -20,7 +20,7 @@ _{This is a detailed description of your application. Give as much detail as nee
 
 <details>
 <summary><strong>To Setup</strong></summary>
-<li>Install *`Microsoft .NET SDK`*</li>
+<li>Install <em>Microsoft .NET SDK<em></li>
 <li>Clone the repo
 
 ```sh
